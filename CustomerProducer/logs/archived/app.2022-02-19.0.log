@@ -1,0 +1,8 @@
+2022-02-19 13:20:47,868 INFO com.pkglobal.CustomerPublisherApplication [main] Starting CustomerPublisherApplication using Java 17.0.2 on msarva-lp with PID 68196 (C:\Samanth\Assignment\Code\CustomerPublisher\target\classes started by msarva in C:\Samanth\Assignment\Code\CustomerPublisher)
+2022-02-19 13:20:47,871 DEBUG com.pkglobal.CustomerPublisherApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-02-19 13:20:47,871 INFO com.pkglobal.CustomerPublisherApplication [main] No active profile set, falling back to default profiles: default
+2022-02-19 13:20:51,364 INFO com.pkglobal.CustomerPublisherApplication [main] Started CustomerPublisherApplication in 4.089 seconds (JVM running for 4.957)
+2022-02-19 13:25:38,721 INFO com.pkglobal.CustomerPublisherApplication [main] Starting CustomerPublisherApplication using Java 17.0.2 on msarva-lp with PID 32460 (C:\Samanth\Assignment\Code\CustomerPublisher\target\classes started by msarva in C:\Samanth\Assignment\Code\CustomerPublisher)
+2022-02-19 13:25:38,725 DEBUG com.pkglobal.CustomerPublisherApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-02-19 13:25:38,725 INFO com.pkglobal.CustomerPublisherApplication [main] No active profile set, falling back to default profiles: default
+2022-02-19 13:25:42,154 INFO com.pkglobal.CustomerPublisherApplication [main] Started CustomerPublisherApplication in 4.021 seconds (JVM running for 4.848)

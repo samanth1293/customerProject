@@ -1,0 +1,12 @@
+2022-02-19 12:58:46,807 INFO com.pkglobal.CustomerConsumerApplication [main] Starting CustomerConsumerApplication using Java 17.0.2 on msarva-lp with PID 46480 (C:\Samanth\Assignment\Code\CustomerConsumer\target\classes started by msarva in C:\Samanth\Assignment\Code\CustomerConsumer)
+2022-02-19 12:58:46,812 DEBUG com.pkglobal.CustomerConsumerApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-02-19 12:58:46,813 INFO com.pkglobal.CustomerConsumerApplication [main] No active profile set, falling back to default profiles: default
+2022-02-19 12:58:53,701 INFO com.pkglobal.CustomerConsumerApplication [main] Started CustomerConsumerApplication in 7.66 seconds (JVM running for 8.814)
+2022-02-19 12:59:25,315 INFO com.pkglobal.CustomerConsumerApplication [main] Starting CustomerConsumerApplication using Java 17.0.2 on msarva-lp with PID 22608 (C:\Samanth\Assignment\Code\CustomerConsumer\target\classes started by msarva in C:\Samanth\Assignment\Code\CustomerConsumer)
+2022-02-19 12:59:25,319 DEBUG com.pkglobal.CustomerConsumerApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-02-19 12:59:25,319 INFO com.pkglobal.CustomerConsumerApplication [main] No active profile set, falling back to default profiles: default
+2022-02-19 12:59:32,137 INFO com.pkglobal.CustomerConsumerApplication [main] Started CustomerConsumerApplication in 7.59 seconds (JVM running for 8.684)
+2022-02-19 13:25:19,223 INFO com.pkglobal.CustomerConsumerApplication [main] Starting CustomerConsumerApplication using Java 17.0.2 on msarva-lp with PID 67232 (C:\Samanth\Assignment\Code\CustomerConsumer\target\classes started by msarva in C:\Samanth\Assignment\Code\CustomerConsumer)
+2022-02-19 13:25:19,227 DEBUG com.pkglobal.CustomerConsumerApplication [main] Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-02-19 13:25:19,227 INFO com.pkglobal.CustomerConsumerApplication [main] No active profile set, falling back to default profiles: default
+2022-02-19 13:25:24,524 INFO com.pkglobal.CustomerConsumerApplication [main] Started CustomerConsumerApplication in 5.912 seconds (JVM running for 6.785)

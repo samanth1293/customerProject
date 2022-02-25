@@ -4,6 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.kafka.support.KafkaHeaders;
+import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.pkglobal.converters.CustomerConveters;
@@ -21,7 +23,8 @@ public class KafkaConsumer {
 
   @KafkaListener(topics = "customer_data", groupId = "customer_group",
       containerFactory = "kafkaListnerContainerFactory")
-  public void consumer(Customer customer) throws JsonProcessingException {
+  public void consumer(Customer customer, @Header(KafkaHeaders.RECEIVED_MESSAGE_KEY) String key)
+      throws JsonProcessingException {
 
     // Customer masking
     Customer maskingCustomerData = CustomerConveters.customerMasking(customer);
@@ -34,7 +37,8 @@ public class KafkaConsumer {
     logger.info("Inserting customer data into database");
     long startTime = System.currentTimeMillis();
     auditLogRepository.save(auditLog);
-    logger.info("DataBase Service Reponse Time: {}", (System.currentTimeMillis() - startTime));
+    logger.info("DataBase Service Reponse Time for Key {} : {}", key,
+        (System.currentTimeMillis() - startTime));
     logger.info("Inserted customer data into database");
 
   }

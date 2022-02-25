@@ -43,7 +43,8 @@ public class CustomerPublisherController {
     logger.info(
         "Published customer data with TransactionId= {} , ActivityId {} and Customer Data {}",
         transactionId, activityId, maskedCustomerData);
-    logger.info("Kafka Producer ResponseTime={}", (System.currentTimeMillis() - starttime));
+    logger.info("For TransactionId {} and ActivityId {} Kafka Producer ResponseTime={}",
+        transactionId, activityId, (System.currentTimeMillis() - starttime));
     SuccessResponse response = buildSuccessResponse();
 
     return new ResponseEntity<>(response, HttpStatus.OK);

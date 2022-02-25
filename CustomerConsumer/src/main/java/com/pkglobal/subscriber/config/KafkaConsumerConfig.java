@@ -29,7 +29,7 @@ public class KafkaConsumerConfig {
   @Bean
   public ConsumerFactory<String, Customer> consumerFactory() {
     Map<String, Object> consumerConfig = new HashMap<>();
-    consumerConfig.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9092");
+    consumerConfig.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
     consumerConfig.put(ConsumerConfig.GROUP_ID_CONFIG, "customer_group");
     consumerConfig.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG,
         StringDeserializer.class.getName());
